@@ -1,0 +1,80 @@
+Readme
+----------------------------------------------------
+Project to train neural networks as game playing AI.
+The underlying code is a NEAT library belonging to the University of Austin, Texas.
+There are files included to simulate the running of the Snake game. The code used to train the neural network is located in
+snake_experiment.cpp . 
+
+
+NEAT source code distribution version 1.2, 7/23/10
+----------------------------------------------------
+
+The NEAT software is based on the real-time NeuroEvolution of
+Augmenting Topologies method of evolving artificial neural networks, by
+Stanley and Miikkulainen (2002).
+
+Source code included in this release is originally written by Kenneth
+Stanley (kstanley@cs.ucf.edu).  The official distribution site is:
+
+http://nn.cs.utexas.edu/keyword?neat-c
+
+The core NEAT code is updated significantly from earlier releases.  Traits
+can now be made functional,  and adaptive networks can be evolved (though
+the default is  non-adaptive).
+
+-------------------------------------
+Included Files
+-------------------------------------
+
+This is a list of files included in the distribution, and also ones that
+are created when it is run or made using the Makefile.
+
+Makefile        : Makes neat on linux
+CMakeLists.txt  : cmake file for cross-platform make (use
+http://www.cmake.org/)
+README          : This file
+LICENSE         : The Apache License Version 2.0 which describes the terms
+for the release of this package
+experiments.cpp : Sample experiments code
+experiments.h
+gen_*           : A printout of a generation- produced by generational
+                 NEAT
+gene.cpp        : Gene class definitions
+gene.h
+genome.cpp      : Genome class definitions
+genome.h
+innovation.cpp  : Innovation class definitions
+innovation.h
+link.cpp        : Link class definitions
+link.h
+neat.cpp        : Main NEAT class
+neat.h
+neatmain.cpp    : Location of main, entry to the executable
+neatmain.h
+network.cpp     : Network class defintions
+network.h
+nnode.cpp       : NNode class definitions
+nnode.h
+organism.cpp    : Organism class definitions
+organism.h
+p2mpar3bare.ne  : Sample parameter file
+p2nv.ne         : Parameter file for non-markov double pole balancing
+p2test.ne       : Sample parameter file
+params256.ne    : Sample parameter file that was used in some major 
+    experiments with pop size 256
+pole1startgenes : Starter genes for signle pole balancing
+pole2_markov.ne : Parameter file for markovian double pole balancing
+pole2startgenes : Start genes for double pole balancing
+pole2startgenes1 : Start genes for markovian double pole balancing
+pole2startgenes2 : Start genes for non-markovian double pole balancing
+population.cpp  : Population class definitions
+population.h
+neat            : Main executable (must execute "make" to produce this file)
+species.cpp     : Species class definitions
+species.h
+statout         : Stat file output after some experiments
+test.ne         : Sample parameter file
+trait.cpp       : Trait class definitions
+trait.h
+xorstartgenes   : Start genes for XOR experiment
+
